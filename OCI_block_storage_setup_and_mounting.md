@@ -94,7 +94,7 @@ Prerequisite: Create a separate VM to act as the NFS server (Ubuntu) and attach 
 1. Create the NFS server VM and install required packages:
    ```bash
    sudo apt update
-   sudo apt install -y nfs-kernel-server nfs-common rpcbind
+   sudo apt install -y nfs-server nfs-kernel-server nfs-common rpcbind rpcbind.socket
    ```
    Note package names may vary slightly by distribution; `nfs-server` is usually covered by `nfs-kernel-server`.
 
