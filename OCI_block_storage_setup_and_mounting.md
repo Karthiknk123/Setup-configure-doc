@@ -129,9 +129,3 @@ Prerequisite: Create a separate VM to act as the NFS server (Ubuntu) and attach 
    sudo mount -t nfs <NFS-server-private-ip>:/data/Prod /data/Prod
    df -h /data/Prod
    ```
-   To persist on client reboot, add an entry to the client `/etc/fstab`:
-   ```
-   <NFS-server-private-ip>:/data/Prod  /data/Prod  nfs  defaults,_netdev  0  0
-   ```
-
----
