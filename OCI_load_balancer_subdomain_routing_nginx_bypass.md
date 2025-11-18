@@ -43,7 +43,7 @@ Summary
    - Add each backend instance or IP and set the backend port to the service port (for example 5678).
    - Save changes.
 
-5. Update health check if necessary: from the backend set choose **Actions** → **Update Health Check**, set Protocol = TCP and Port = running service port.
+5. Update health check from the backend set above choose **Actions** → **Update Health Check**, set Protocol = TCP and Port = running service port.
 
 Notes:
 - If your backends run on different ports, create separate backend sets per service/port.
