@@ -86,7 +86,7 @@ Tips:
 
 ## 5) Attach Routing Policy to Listener
 1. In Load Balancer → Listeners → pick your HTTPS listener → Actions (three dots) → Edit.
-2. Under Routing Policy, add the routing policy (or multiple policies) you created.
+2. Under hostname, add the hostname which is created (Multiple) and Under Routing Policy, add the routing policy (or multiple policies) you created.
 3. Save changes.
 
 Important:
